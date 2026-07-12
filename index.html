@@ -1426,8 +1426,8 @@
       e.preventDefault();
       const action = intakeForm.getAttribute('action');
       if(action.includes('YOUR_FORM_ID')){
-        miStatus.textContent = 'Form not yet connected — replace the Formspree ID in the code before going live.';
-        miStatus.className = 'form-status err';
+        miStatus.textContent = 'This form will go live at launch. For now, please call or text 903.277.1422 to complete your medical profile.';
+        miStatus.className = 'form-status ok';
         return;
       }
       try{
